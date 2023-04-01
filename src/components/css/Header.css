@@ -4,29 +4,48 @@
     margin-bottom: 10rem;
 }
 
+.navbar-brand__icon {
+    color: var(--var-color-accent);
+}
+
 .navbar-brand {
-    color: var(--var-color-primary);
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 4rem;
+    font-weight: 700;
     letter-spacing: 1px;
-    background: var(--var-color-secondary);
-    border-radius: 19px;
     padding: .3rem 1rem;
+    transition: all .3s;
+}
+
+.navbar-brand:hover {
+    transform: perspective(80px) translateZ(3px);
+    opacity: .8;
 }
 
 .nav-link,
 .nav-item {
     color: var(--var-color-primary);
-    background: var(--var-color-secondary);
+    background: var(--var-color-accent);
     border-radius: 19px;
     padding: .3rem 1rem;
     text-align: center;
     letter-spacing: 1px;
     font-weight: 600;
+    transition: all .3s;
 }
 
 .nav-item {
     margin-left: 1rem;
+}
+
+.nav-item:hover {
+    opacity: .8;
+    background: var(--var-color-accent);
+    color: var(--var-color-primary);
+    transform: perspective(80px) translateZ(3px);
+}
+
+.nav-link:hover {
+    color: var(--var-color-primary)
 }
 
 #navbarNavDropdown {

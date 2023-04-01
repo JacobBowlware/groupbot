@@ -8,6 +8,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-family: 'Prompt', sans-serif;
 }
 
 body {
@@ -16,11 +17,16 @@ body {
   justify-content: center;
   min-height: 100vh;
   background: var(--var-color-primary);
+  font-family: 'Prompt', sans-serif;
 }
 
 .page {
   padding: 0 2rem;
   width: 100%;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 .App {
