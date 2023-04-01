@@ -1,0 +1,34 @@
+#navbar {
+    width: 100%;
+    background: var(--var-color-primary) !important;
+    margin-bottom: 10rem;
+}
+
+.navbar-brand {
+    color: var(--var-color-primary);
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: var(--var-color-secondary);
+    border-radius: 19px;
+    padding: .3rem 1rem;
+}
+
+.nav-link,
+.nav-item {
+    color: var(--var-color-primary);
+    background: var(--var-color-secondary);
+    border-radius: 19px;
+    padding: .3rem 1rem;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.nav-item {
+    margin-left: 1rem;
+}
+
+#navbarNavDropdown {
+    justify-content: flex-end;
+}

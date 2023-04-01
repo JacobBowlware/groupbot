@@ -1,0 +1,46 @@
+:root {
+  --var-color-primary: #ffff;
+  --var-color-secondary: #0B132B;
+  --var-color-accent: #7494EA;
+  --var-color-light: #D6E5E3;
+  --var-color-dark: #1C2541;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background: var(--var-color-primary);
+}
+
+.page {
+  padding: 0 2rem;
+  width: 100%;
+}
+
+.App {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .page {
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page {
+    padding: 0 7rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .page {
+    padding: 0 10rem;
+  }
+}

@@ -1,0 +1,30 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    width: 100%;
+}
+
+.home__hero-item {
+    width: 100%;
+}
+
+.home__hero-item__header {
+    width: 100%;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+    .home__hero {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+}
