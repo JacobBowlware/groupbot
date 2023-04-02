@@ -13,14 +13,13 @@ const Home = () => {
             <div className="home__hero container-fluid page" id="home">
                 <div className="home__hero-item">
                     <p className="home__hero-item__header">
-                        Find compatible team members effortlessly with GroupBot
+                        Group creation and management made easy with GroupBot.
                     </p>
                     <p className="home__hero-item__header">
-                        Eliminate the stress and focus on bringing your ideas to life
+                        Simply provide a group name and let GroupBot handle the rest.
                     </p>
                     <p className="home__hero-item__header">
-                        Achieve your goals with a group of like-minded individuals.
-                    </p>
+                        Effortlessly communicate with your group through a unique role and dedicated channel.                    </p>
                     <a href="/#features" className="btn home__hero-item__btn">Learn More</a>
                 </div>
                 <div className="home__hero-item">
@@ -35,9 +34,7 @@ const Home = () => {
                             <FontAwesomeIcon className="home__features-item__icon" icon={faBrain} />
                         </div>
                         <p className="home__features-item__body">
-                            GroupBot matches users with compatible
-                            team members based on interests, skills,
-                            and preferences.
+                            GroupBot creates a Discord role and channel for your group automatically.
                         </p>
                     </div>
                     <div className="home__features-item__container-cont">
@@ -45,9 +42,7 @@ const Home = () => {
                             <FontAwesomeIcon className="home__features-item__icon" icon={faFilter} />
                         </div>
                         <p className="home__features-item__body">
-                            Users can set custom filters, such as age
-                            range and language, to refine the matching
-                            process.
+                            Customize permissions and settings for each group role.
                         </p>
                     </div>
                     <div className="home__features-item__container-cont">
@@ -55,9 +50,7 @@ const Home = () => {
                             <FontAwesomeIcon className="home__features-item__icon" icon={faComment} />
                         </div>
                         <p className="home__features-item__body">
-                            Facilitates team collaboration by providing
-                            communication, delegation, and progress
-                            tracking features.
+                            Add/remove members, modify settings, and access channels easily.
                         </p>
                     </div>
                 </div>
@@ -67,24 +60,19 @@ const Home = () => {
                     <div className="home__works-item">
                         <h3 className="home__works-header">How It Works</h3>
                         <p className="home__works-body">
-                            GroupBot is a powerful tool that simplifies the process of
-                            finding a group of like-minded individuals to work on
-                            projects or other initiatives. To get started, simply
-                            add GroupBot to your Discord server and initialize it
-                            with a set of filters, or use the default filters.
-                            From there, individuals can put themselves into a
-                            pooling system for group making, based on their skills,
-                            interests, age, and more.
+                            To create a new group with GroupBot, simply provide a
+                            group name and let the bot handle the rest. GroupBot
+                            will create a unique Discord role for the group and a
+                            dedicated text/voice channel that members can use to
+                            communicate and collaborate with ease.
                         </p>
                         <p className="home__works-body">
-                            After completing a short questionnaire, GroupBot's
-                            intelligent matching algorithm will pair you with
-                            compatible team members, ensuring that everyone in
-                            the group is a good fit for the project. With a
-                            dedicated group in place, you can start collaborating,
-                            delegating tasks, and tracking progress towards your
-                            goals. Say goodbye to the hassle of finding a compatible
-                            team and say hello to GroupBot!
+                            Once the group has been created, members can be added
+                            to the group role to gain access to the group channel.
+                            From there, you can customize the group settings,
+                            add new members, and manage communication with ease,
+                            all from one centralized location. With GroupBot,
+                            creating and managing groups has never been simpler.
 
                         </p>
                         <a href="/#set-up" className="btn home__works-btn">Setup GroupBot</a>
@@ -103,19 +91,19 @@ const Home = () => {
                         <h3 className="home__setup-header">Setup Instructions</h3>
                         <ul className="home__setup-list">
                             <li className="home__setup-list__item">
-                                Add GroupBot to Your Server
+                                Add GroupBot to your Discord server.
                             </li>
                             <li className="home__setup-list__item">
-                                Set Your Preferences
+                                Specify a name for your group.
                             </li>
                             <li className="home__setup-list__item">
-                                Answer a Short Questionnaire
+                                GroupBot creates a role and dedicated channel.
                             </li>
                             <li className="home__setup-list__item">
-                                Get Matched with Compatible Team Members
+                                Browse existing groups or create your own.
                             </li>
                             <li className="home__setup-list__item">
-                                Start Collaborating on Projects and Goals!
+                                Start collaborating with your group!
                             </li>
                         </ul>
                         <a
