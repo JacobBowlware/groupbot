@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# GroupBot
+GroupBot is a Discord bot that makes it easy to find and collaborate with like-minded individuals. This powerful tool streamlines the process of finding a compatible team, ensuring that everyone involved in a project is a good fit. With GroupBot, you can spend less time searching and more time working towards your goals.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How it Works
+Add GroupBot to Your Server
+Set Your Preferences
+Answer a Short Questionnaire
+Get Matched with Compatible Team Members
+Start Collaborating on Projects and Goals!
+GroupBot can be initialized with a set of filters or use the default filters, and people can put themselves into a pooling system for group making based on skills, interests, age, and more. After completing a short questionnaire, GroupBot's intelligent matching algorithm will pair you with compatible team members, ensuring that everyone in the group is a good fit for the project.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Features
+Intelligent Matching - GroupBot matches users with compatible team members based on interests, skills, and preferences.
+Customizable Filters - Users can set custom filters, such as age range and language, to refine the matching process.
+Group Management Tools - GroupBot provides communication tools, task delegation features, and progress tracking to ensure teams work together efficiently.
+## Installation & Setup
+Add the bot to your server: https://abcd. After adding the bot to your server, run the command [INSERT_COMMAND_HERE] and follow the steps provided by GroupBot to successfully implement its' features.
+## Contributing
+We welcome contributions to GroupBot! If you'd like to contribute, please create a pull request with your changes. Be sure to include a detailed description of your changes and any relevant test cases.
