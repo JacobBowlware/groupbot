@@ -14,6 +14,6 @@ Intelligent Matching - GroupBot matches users with compatible team members based
 Customizable Filters - Users can set custom filters, such as age range and language, to refine the matching process.
 Group Management Tools - GroupBot provides communication tools, task delegation features, and progress tracking to ensure teams work together efficiently.
 ## Installation & Setup
-Add the bot to your server: https://abcd. After adding the bot to your server, run the command [INSERT_COMMAND_HERE] and follow the steps provided by GroupBot to successfully implement its' features.
+Add the bot to your server: https://discord.com/api/oauth2/authorize?client_id=1091778100972486827&permissions=8&scope=bot%20applications.commands. After adding the bot to your server, run the command [INSERT_COMMAND_HERE] and follow the steps provided by GroupBot to successfully implement its' features.
 ## Contributing
 We welcome contributions to GroupBot! If you'd like to contribute, please create a pull request with your changes. Be sure to include a detailed description of your changes and any relevant test cases.
