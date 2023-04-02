@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div className="home">
             <div className="home__hero container-fluid page" id="home" >
-                <div className="home__hero-item" data-aos="fade-right"
+                <div className="home__hero-item" data-aos="fade-right" data-aos-once="true"
                     data-aos-duration="1000">
                     <p className="home__hero-item__header">
                         Group creation and management made easy with GroupBot.
@@ -24,12 +24,12 @@ const Home = () => {
                     <a href="/#features" className="btn home__hero-item__btn">Learn More</a>
                 </div>
                 <div className="home__hero-item" data-aos="fade-left"
-                    data-aos-duration="1000">
+                    data-aos-duration="1000" data-aos-once="true">
                     <img className="img" src={team} alt="Team of people high-fiving." />
                 </div>
             </div>
             <div className="home__features container-fluid page" id="features" data-aos="fade-up"
-                data-aos-duration="1000">
+                data-aos-duration="1000" data-aos-once="true">
                 <h2 className="home__features-header">GroupBot Features</h2>
                 <div className="home__features-item__container">
                     <div className="home__features-item__container-cont">
@@ -60,7 +60,7 @@ const Home = () => {
             </div>
             <div className="home__works container-fluid page" id="how-it-works">
                 <div className="home__works-container" data-aos="fade-right"
-                    data-aos-duration="1000">
+                    data-aos-duration="1000" data-aos-once="true">
                     <div className="home__works-item">
                         <h3 className="home__works-header">How It Works</h3>
                         <p className="home__works-body">
@@ -82,7 +82,7 @@ const Home = () => {
                         <a href="/#set-up" className="btn home__works-btn">Setup GroupBot</a>
                     </div>
                     <div className="home__works-item" data-aos="fade-left"
-                        data-aos-duration="1000">
+                        data-aos-duration="1000" data-aos-once="true">
                         <img className="img img-noshow" src={works} alt="A business man wondering how this bot could help him." />
                     </div>
                 </div>
@@ -90,11 +90,11 @@ const Home = () => {
             <div className="home__setup container-fluid page" id="set-up">
                 <div className="home__setup-container">
                     <div className="home__setup-item" data-aos="flip-right"
-                        data-aos-duration="1000">
+                        data-aos-duration="1000" data-aos-once="true">
                         <img className="home__setup-item__img img img-noshow" src={steps} alt="A business man walking through the steps of success." />
                     </div>
                     <div className="home__setup-item" data-aos="flip-left"
-                        data-aos-duration="1000">
+                        data-aos-duration="1000" data-aos-once="true">
                         <h3 className="home__setup-header">Setup Instructions</h3>
                         <ul className="home__setup-list">
                             <li className="home__setup-list__item">
