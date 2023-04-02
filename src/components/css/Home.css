@@ -46,6 +46,7 @@
     font-size: 1.4rem;
     cursor: pointer;
     transition: all 0.3s;
+    letter-spacing: 1px;
 }
 
 .home__hero-item__btn:hover {
@@ -193,6 +194,7 @@
     cursor: pointer;
     transition: all 0.3s;
     margin: 2rem 0;
+    letter-spacing: 1px;
 }
 
 .home__works-btn:hover {
@@ -262,6 +264,7 @@
     font-size: 1.4rem;
     cursor: pointer;
     transition: all 0.3s;
+    letter-spacing: 1px;
 }
 
 .home__setup-btn:hover {
