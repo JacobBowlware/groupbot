@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import team from '../images/team.svg';
 import works from '../images/works.svg';
 import steps from '../images/steps.svg';
-import steps2 from '../images/steps2.svg';
 import { faBrain, faComment, faFilter } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
@@ -25,7 +24,7 @@ const Home = () => {
                     <a href="/#features" className="btn home__hero-item__btn">Learn More</a>
                 </div>
                 <div className="home__hero-item">
-                    <img src={team} alt="Team of people high-fiving." />
+                    <img className="img" src={team} alt="Team of people high-fiving." />
                 </div>
             </div>
             <div className="home__features container-fluid page" id="features">
@@ -91,14 +90,14 @@ const Home = () => {
                         <a href="/#set-up" className="btn home__works-btn">Setup GroupBot</a>
                     </div>
                     <div className="home__works-item">
-                        <img src={works} alt="A business man wondering how this bot could help him." />
+                        <img className="img img-noshow" src={works} alt="A business man wondering how this bot could help him." />
                     </div>
                 </div>
             </div>
             <div className="home__setup container-fluid page" id="set-up">
                 <div className="home__setup-container">
                     <div className="home__setup-item">
-                        <img className="home__setup-item__img" src={steps} alt="A business man walking through the steps of success." />
+                        <img className="home__setup-item__img img img-noshow" src={steps} alt="A business man walking through the steps of success." />
                     </div>
                     <div className="home__setup-item">
                         <h3 className="home__setup-header">Setup Instructions</h3>

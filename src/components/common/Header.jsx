@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
     return (
@@ -9,8 +9,8 @@ const Header = () => {
                 <a className="navbar-brand" href="/#">
                     <FontAwesomeIcon className="navbar-brand__icon" icon={faPeopleGroup} />
                 </a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+                <button id="navbar-toggler" className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <FontAwesomeIcon id="navbar-toggler-icon" className="navbar-toggler-icon" icon={faBars} />
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">

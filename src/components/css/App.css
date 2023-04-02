@@ -21,8 +21,7 @@ body {
 }
 
 .page {
-  padding: 0 2rem;
-  width: 100%;
+  padding: 0 2rem !important;
 }
 
 .container-fluid {
@@ -35,7 +34,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .page {
-    padding: 0 5rem;
+    padding: 0 5rem !important;
   }
 }
 
