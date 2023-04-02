@@ -204,6 +204,7 @@
 .home__setup {
     background: var(--var-color-primary);
     color: var(--var-color-secondary);
+    margin-top: 3rem;
 }
 
 .home__setup-header {

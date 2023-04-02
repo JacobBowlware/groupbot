@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import team from '../images/team.svg';
 import works from '../images/works.svg';
 import steps from '../images/steps.svg';
+import steps2 from '../images/steps2.svg';
 import { faBrain, faComment, faFilter } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
@@ -21,7 +22,7 @@ const Home = () => {
                     <p className="home__hero-item__header">
                         Achieve your goals with a group of like-minded individuals.
                     </p>
-                    <button className="btn home__hero-item__btn">Learn More</button>
+                    <a href="/#features" className="btn home__hero-item__btn">Learn More</a>
                 </div>
                 <div className="home__hero-item">
                     <img src={team} alt="Team of people high-fiving." />
@@ -87,17 +88,17 @@ const Home = () => {
                             team and say hello to GroupBot!
 
                         </p>
-                        <button className="btn home__works-btn">Setup GroupBot</button>
+                        <a href="/#set-up" className="btn home__works-btn">Setup GroupBot</a>
                     </div>
                     <div className="home__works-item">
-                        <img src={works} />
+                        <img src={works} alt="A business man wondering how this bot could help him." />
                     </div>
                 </div>
             </div>
             <div className="home__setup container-fluid page" id="set-up">
                 <div className="home__setup-container">
                     <div className="home__setup-item">
-                        <img className="home__setup-item__img" src={steps} />
+                        <img className="home__setup-item__img" src={steps} alt="A business man walking through the steps of success." />
                     </div>
                     <div className="home__setup-item">
                         <h3 className="home__setup-header">Setup Instructions</h3>
@@ -118,7 +119,7 @@ const Home = () => {
                                 Start Collaborating on Projects and Goals!
                             </li>
                         </ul>
-                        <button className="btn home__setup-btn">Add GroupBot To Server</button>
+                        <a href="/" className="btn home__setup-btn">Add GroupBot To Server</a>
                     </div>
                 </div>
             </div>
