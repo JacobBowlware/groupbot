@@ -11,7 +11,12 @@ const Footer = () => {
                     GitHub
                 </a>
                 <a className="footer__cont-item" href="/#">Back To Top</a>
-                <a className="footer__cont-item" href="/#">Reviews</a>
+                <a className="footer__cont-item"
+                    href="https://discord.com/api/oauth2/authorize?client_id=1091778100972486827&permissions=8&scope=bot%20applications.commands"
+                    target='_blank'
+                    rel="noreferrer">
+                    GroupBot
+                </a>
             </div>
         </div>
     );

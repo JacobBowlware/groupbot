@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import team from '../images/team.svg';
 import works from '../images/works.svg';
 import steps from '../images/steps.svg';
-import { faBrain, faComment, faFilter } from '@fortawesome/free-solid-svg-icons';
+import { faEye, faRobot, faUsers } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
     return (
@@ -31,7 +31,7 @@ const Home = () => {
                 <div className="home__features-item__container">
                     <div className="home__features-item__container-cont">
                         <div className="home__features-item">
-                            <FontAwesomeIcon className="home__features-item__icon" icon={faBrain} />
+                            <FontAwesomeIcon className="home__features-item__icon" icon={faRobot} />
                         </div>
                         <p className="home__features-item__body">
                             GroupBot creates a Discord role and channel for your group automatically.
@@ -39,7 +39,7 @@ const Home = () => {
                     </div>
                     <div className="home__features-item__container-cont">
                         <div className="home__features-item">
-                            <FontAwesomeIcon className="home__features-item__icon" icon={faFilter} />
+                            <FontAwesomeIcon className="home__features-item__icon" icon={faEye} />
                         </div>
                         <p className="home__features-item__body">
                             Customize permissions and settings for each group role.
@@ -47,7 +47,7 @@ const Home = () => {
                     </div>
                     <div className="home__features-item__container-cont">
                         <div className="home__features-item">
-                            <FontAwesomeIcon className="home__features-item__icon" icon={faComment} />
+                            <FontAwesomeIcon className="home__features-item__icon" icon={faUsers} />
                         </div>
                         <p className="home__features-item__body">
                             Add/remove members, modify settings, and access channels easily.
