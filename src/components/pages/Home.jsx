@@ -114,7 +114,7 @@ const Home = () => {
                             </li>
                         </ul>
                         <a
-                            href="https://discord.com/api/oauth2/authorize?client_id=1091778100972486827&permissions=8&scope=bot%20applications.commands"
+                            href="https://discord.com/api/oauth2/authorize?client_id=1091893500980764673&permissions=8&scope=bot%20applications.commands"
                             className="btn home__setup-btn"
                             target="_blank"
                             rel="noreferrer"
